@@ -1,5 +1,5 @@
-﻿Compilación iniciada a las 07/04/2019 05:28:24 p. m..
-     1>Proyecto "C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Apuntes\matrices visual\matrices visual\matrices visual.vcxproj" en el nodo 2 (build destinos).
+﻿Compilación iniciada a las 20/04/2019 08:33:57 p. m..
+     1>Proyecto "C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\SI210-Estructuras-de-Datos\matrices visual\matrices visual\matrices visual.vcxproj" en el nodo 2 (build destinos).
      1>InitializeBuildStatus:
          Se creará "Debug\matrices visual.unsuccessfulbuild" porque se especificó "AlwaysCreate".
        GenerateTargetFrameworkMonikerAttribute:
@@ -10,29 +10,30 @@
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\matrices visual.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp "matrices visual.cpp" /clr:nostdlib 
          AssemblyInfo.cpp
          matrices visual.cpp
-     1>c:\users\hp\onedrive\documents\upsa\2019 semestre i\estructura de datos\apuntes\matrices visual\matrices visual\Matriz.h(75): warning C4101: 'n' : variable local sin referencia
-     1>c:\users\hp\onedrive\documents\upsa\2019 semestre i\estructura de datos\apuntes\matrices visual\matrices visual\Matriz.h(93): warning C4101: 'n' : variable local sin referencia
+     1>c:\users\hp\onedrive\documents\upsa\2019 semestre i\estructura de datos\si210-estructuras-de-datos\matrices visual\matrices visual\Matriz.h(75): warning C4101: 'n' : variable local sin referencia
+     1>c:\users\hp\onedrive\documents\upsa\2019 semestre i\estructura de datos\si210-estructuras-de-datos\matrices visual\matrices visual\Matriz.h(93): warning C4101: 'n' : variable local sin referencia
          Generando código...
-     1>c:\users\hp\onedrive\documents\upsa\2019 semestre i\estructura de datos\apuntes\matrices visual\matrices visual\matriz.h(107): warning C4700: se utilizó la variable local 'i' sin inicializar
-         Todas las salidas están actualizadas.
+     1>c:\users\hp\onedrive\documents\upsa\2019 semestre i\estructura de datos\si210-estructuras-de-datos\matrices visual\matrices visual\matriz.h(107): warning C4700: se utilizó la variable local 'i' sin inicializar
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Hp\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
        CoreResGen:
          No hay ningún recurso obsoleto con respecto a sus archivos de origen. Se omitirá la generación de recursos.
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Apuntes\matrices visual\Debug\matrices visual.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\matricesvisual.Form1.resources /MANIFEST /ManifestFile:"Debug\matrices visual.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Apuntes\matrices visual\Debug\matrices visual.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\SI210-Estructuras-de-Datos\matrices visual\Debug\matrices visual.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\matricesvisual.Form1.resources /MANIFEST /ManifestFile:"Debug\matrices visual.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\SI210-Estructuras-de-Datos\matrices visual\Debug\matrices visual.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
          Debug\AssemblyInfo.obj
          "Debug\matrices visual.obj"
          Debug\stdafx.obj
          "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         matrices visual.vcxproj -> C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Apuntes\matrices visual\Debug\matrices visual.exe
+         matrices visual.vcxproj -> C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\SI210-Estructuras-de-Datos\matrices visual\Debug\matrices visual.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Apuntes\matrices visual\Debug\matrices visual.exe;#1" /manifest "Debug\matrices visual.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\SI210-Estructuras-de-Datos\matrices visual\Debug\matrices visual.exe;#1" /manifest "Debug\matrices visual.exe.intermediate.manifest"
        FinalizeBuildStatus:
          Se eliminará el archivo "Debug\matrices visual.unsuccessfulbuild".
          Aplicando tarea Touch a "Debug\matrices visual.lastbuildstate".
-     1>Compilación del proyecto terminada "C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Apuntes\matrices visual\matrices visual\matrices visual.vcxproj" (build destinos).
+     1>Compilación del proyecto terminada "C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\SI210-Estructuras-de-Datos\matrices visual\matrices visual\matrices visual.vcxproj" (build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:07.62
+Tiempo transcurrido 00:00:07.09
