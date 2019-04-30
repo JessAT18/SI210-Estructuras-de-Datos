@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 #include "Aplicacion.h"
+#include <msclr\marshal_cppstd.h>
+using namespace msclr::interop;
 using namespace std;
 
 namespace COLASS {
@@ -89,7 +91,6 @@ namespace COLASS {
 			// Grillax
 			// 
 			this->Grillax->AllowUserToAddRows = false;
-			this->Grillax->AllowUserToDeleteRows = false;
 			this->Grillax->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->Grillax->Location = System::Drawing::Point(28, 37);
 			this->Grillax->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -100,8 +101,6 @@ namespace COLASS {
 			// 
 			// Grillay
 			// 
-			this->Grillay->AllowUserToAddRows = false;
-			this->Grillay->AllowUserToDeleteRows = false;
 			this->Grillay->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->Grillay->Location = System::Drawing::Point(28, 191);
 			this->Grillay->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
@@ -130,7 +129,7 @@ namespace COLASS {
 			// 
 			// mostrar
 			// 
-			this->mostrar->Location = System::Drawing::Point(1219, 179);
+			this->mostrar->Location = System::Drawing::Point(1219, 267);
 			this->mostrar->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->mostrar->Name = L"mostrar";
 			this->mostrar->Size = System::Drawing::Size(124, 43);
@@ -167,7 +166,6 @@ private: System::Void insertar_Click(System::Object^  sender, System::EventArgs^
 		 a.Guardar(Grillax, ttamano);
 		 }
 private: System::Void mostrar_Click(System::Object^  sender, System::EventArgs^  e) {
-			 b.eliminarrepetidos(a);
 			 a.Mostrar(Grillay);
 		 }
 };

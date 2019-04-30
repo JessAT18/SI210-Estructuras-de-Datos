@@ -2,9 +2,12 @@
 #include <iostream>
 #include <string>
 #include "Cola.h"
+#include "Naturales.h"
+
 using namespace std;
 using namespace System::Windows::Forms;
- class Aplicacion:public Cola
+ 
+class Aplicacion:public Cola
 {
 public:
 
@@ -46,26 +49,6 @@ public:
 			grilla->Rows[0] -> Cells[i] ->	Value=System::Convert::ToInt32(x.Get_entero());
 			i++;
 		}
-	}
-	void eliminarrepetidos(Cola q)
-	{
-		Naturales x1, x2, x3;
-		int tam1 = q.Get_final() - q.Get_frente();
-		for(int i=0;i<tam1;i++){
-			Cola p=q;
-			q.Eliminar(x3);
-			q.Insertar(x3);
-			int tam2 = p.Get_final() - p.Get_frente();
-			p.Eliminar(x1);
-			for(int j=1;j<tam2;j++){
-				p.Eliminar(x2);
-				if(x1.Get_entero()!=x2.Get_entero()){
-					p.Insertar(x2);
-				}
-			}
-			q=p;
-		}
-
 	}
 };
 

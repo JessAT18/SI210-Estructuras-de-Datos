@@ -2,7 +2,7 @@
 #include "Naturales.h"
 #include <iostream>
 using namespace std;
-const int n=100;
+const int n=20;
 class Cola
 {
 private:
@@ -11,9 +11,10 @@ private:
     int final;
 
 public:
-    Cola()
+    Cola(void)
     {
-        frente=final=0;
+        frente=0;
+        final=0;
     }
 
     int Get_frente()
@@ -34,46 +35,39 @@ public:
         final=f;
     }
 
-    bool Cola_llena()
+    bool Cola_vacia()
     {
-        if (frente==(final+1)%n) //final+1 omite el espacio en blanco y llega al valor de frente, ademas el modulo permite que no se salga del limite
+        if (frente==final)
             return true;
         else
             return false;
     }
 
-    bool Cola_vacia()
+    bool Cola_llena()
     {
-		if(frente==final)
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
-	}
+        if (frente==(final+1)%n)
+            return true;
+        else
+            return false;
+    }
 
     bool Insertar(Naturales x)
     {
-        if (Cola_llena())
+        if (Cola_llena()==true)
             return false;
-		else
-		{
-			cola[final]=x;
-			final=(final+1)%n;
-			return true;
-		}
+        final=(final+1)%n;
+        cola[final]=x;
+        return true;
     }
 
-    bool Eliminar (Naturales &x)
+    bool Eliminar (Naturales x)
     {
-        if(Cola_vacia())
+        if(Cola_vacia()==true)
             return false;
         else
         {
-            x=cola[frente];
             frente=(frente+1)%n;
+            x=cola[frente];
             return true;
         }
     }
@@ -88,3 +82,4 @@ public:
         *this=x;
     }
 };
+

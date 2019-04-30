@@ -1,32 +1,84 @@
-﻿Compilación iniciada a las 30/04/2019 02:57:40 p. m..
-     1>Proyecto "C:\Users\Hp\Desktop\Colas Circulares\COLASS\COLASS.vcxproj" en el nodo 2 (build destinos).
+﻿Compilación iniciada a las 26/04/2019 09:45:22 a. m..
+     1>Proyecto "C:\Users\Hp\OneDrive\Documents\UPSA\Estructura de datos\Apuntes\Colas Circulares\COLASS\COLASS.vcxproj" en el nodo 2 (build destinos).
      1>InitializeBuildStatus:
-         Se creará "Debug\COLASS.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+         Aplicando tarea Touch a "Debug\COLASS.unsuccessfulbuild".
        GenerateTargetFrameworkMonikerAttribute:
        Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
        ClCompile:
          Todas las salidas están actualizadas.
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\COLASS.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt COLASS.cpp /clr:nostdlib 
          COLASS.cpp
-         Todas las salidas están actualizadas.
-       CoreResGen:
-         No hay ningún recurso obsoleto con respecto a sus archivos de origen. Se omitirá la generación de recursos.
-       ResourceCompile:
-         Todas las salidas están actualizadas.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hp\Desktop\Colas Circulares\Debug\COLASS.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\COLASS.Form1.resources /MANIFEST /ManifestFile:"Debug\COLASS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hp\Desktop\Colas Circulares\Debug\COLASS.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
-         Debug\AssemblyInfo.obj
-         Debug\COLASS.obj
-         Debug\stdafx.obj
-         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         COLASS.vcxproj -> C:\Users\Hp\Desktop\Colas Circulares\Debug\COLASS.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Hp\Desktop\Colas Circulares\Debug\COLASS.exe;#1" /manifest Debug\COLASS.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Se eliminará el archivo "Debug\COLASS.unsuccessfulbuild".
-         Aplicando tarea Touch a "Debug\COLASS.lastbuildstate".
-     1>Compilación del proyecto terminada "C:\Users\Hp\Desktop\Colas Circulares\COLASS\COLASS.vcxproj" (build destinos).
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6143): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(251) : System::Windows::Forms::IDataObject IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6143): error C3699: '*' : no se puede utilizar este direccionamiento indirecto en el tipo 'IDataObject'
+                 el compilador reemplazará '*' por '^' para continuar con el análisis
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157): error C2371: 'IDataObject' : nueva definición; tipos básicos distintos
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(251) : vea la declaración de 'IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6319): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6332): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6345): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6381): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6401): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6511): error C2872: 'IMessageFilter' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(263) : System::Windows::Forms::IMessageFilter IMessageFilter'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IMessageFilter'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6511): error C3699: '*' : no se puede utilizar este direccionamiento indirecto en el tipo 'IMessageFilter'
+                 el compilador reemplazará '*' por '^' para continuar con el análisis
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6557): error C2371: 'IMessageFilter' : nueva definición; tipos básicos distintos
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(263) : vea la declaración de 'IMessageFilter'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(13488): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(13494): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(13499): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(13505): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(13510): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(13517): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(382): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(1165): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(1171): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(3385): error C2872: 'IDropTarget' : símbolo ambiguo
+                 puede ser 'c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(173) : System::Windows::Forms::IDropTarget IDropTarget'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDropTarget'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(3385): error C3699: '*' : no se puede utilizar este direccionamiento indirecto en el tipo 'IDropTarget'
+                 el compilador reemplazará '*' por '^' para continuar con el análisis
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(3425): error C2371: 'IDropTarget' : nueva definición; tipos básicos distintos
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(173) : vea la declaración de 'IDropTarget'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(3429): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h(3442): error C2872: 'IDataObject' : símbolo ambiguo
+                 puede ser 'C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h(6157) : IDataObject'
+                 o       'c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : System::Windows::Forms::IDataObject'
+     1>Compilación del proyecto terminada "C:\Users\Hp\OneDrive\Documents\UPSA\Estructura de datos\Apuntes\Colas Circulares\COLASS\COLASS.vcxproj" (build destinos) -- ERROR.
 
-Compilación correcta.
+ERROR al compilar.
 
-Tiempo transcurrido 00:00:01.96
+Tiempo transcurrido 00:00:00.83
