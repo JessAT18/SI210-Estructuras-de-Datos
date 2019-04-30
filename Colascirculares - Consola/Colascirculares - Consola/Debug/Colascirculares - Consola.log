@@ -1,0 +1,29 @@
+﻿Compilación iniciada a las 30/04/2019 03:07:49 p. m..
+     1>Proyecto "C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Colascirculares - Consola\Colascirculares - Consola.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\Colascirculares - Consola.unsuccessfulbuild".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         Todas las salidas están actualizadas.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Colascirculares - Consola.exe.embed.manifest.res" "Debug\Colascirculares - Consola_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Colascirculares - Consola.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.lib" /MACHINE:X86 "Debug\Colascirculares - Consola.exe.embed.manifest.res"
+         "Debug\Colascirculares - Consola.obj"
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Colascirculares - Consola.exe.embed.manifest" /manifest "Debug\Colascirculares - Consola.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Colascirculares - Consola.exe.embed.manifest.res" "Debug\Colascirculares - Consola_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Colascirculares - Consola.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.lib" /MACHINE:X86 "Debug\Colascirculares - Consola.exe.embed.manifest.res"
+         "Debug\Colascirculares - Consola.obj"
+         Debug\stdafx.obj
+         Colascirculares - Consola.vcxproj -> C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Debug\Colascirculares - Consola.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Colascirculares - Consola.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Colascirculares - Consola.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Hp\OneDrive\Documents\UPSA\2019 SEMESTRE I\Estructura de datos\Colascirculares - Consola\Colascirculares - Consola\Colascirculares - Consola.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.47
