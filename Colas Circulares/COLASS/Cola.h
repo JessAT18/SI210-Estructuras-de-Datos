@@ -1,20 +1,19 @@
 #pragma once
-#include "Persona.h"
+#include "Naturales.h"
 #include <iostream>
 using namespace std;
-const int n=20;
+const int n=100;
 class Cola
 {
 private:
-    Persona cola[n];
+    Naturales cola[n];
     int frente;
     int final;
 
 public:
-    Cola(void)
+    Cola()
     {
-        frente=0;
-        final=0;
+        frente=final=0;
     }
 
     int Get_frente()
@@ -35,39 +34,46 @@ public:
         final=f;
     }
 
-    bool Cola_vacia()
-    {
-        if (frente==final)
-            return true;
-        else
-            return false;
-    }
-
     bool Cola_llena()
     {
-        if (frente==(final+1)%n)
+        if (frente==(final+1)%n) //final+1 omite el espacio en blanco y llega al valor de frente, ademas el modulo permite que no se salga del limite
             return true;
         else
             return false;
     }
 
-    bool Insertar(Persona x)
+    bool Cola_vacia()
     {
-        if (Cola_llena()==true)
+		if(frente==final)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+    bool Insertar(Naturales x)
+    {
+        if (Cola_llena())
             return false;
-        final=(final+1)%n;
-        cola[final]=x;
-        return true;
+		else
+		{
+			cola[final]=x;
+			final=(final+1)%n;
+			return true;
+		}
     }
 
-    bool Eliminar (Persona &x)
+    bool Eliminar (Naturales &x)
     {
-        if(Cola_vacia()==true)
+        if(Cola_vacia())
             return false;
         else
         {
-            frente=(frente+1)%n;
             x=cola[frente];
+            frente=(frente+1)%n;
             return true;
         }
     }
@@ -82,4 +88,3 @@ public:
         *this=x;
     }
 };
-
