@@ -1,8 +1,10 @@
 #include "StdAfx.h"
+#include "Cadena.h"
 #include "Nodo.h"
 
 Nodo::Nodo()
 {
+	apuntador=-1;
 }
 
 int Nodo::get_apuntador()
@@ -26,6 +28,7 @@ Nodo Nodo::this_nodo()
 {
 	return *this;
 }
-Nodo Nodo::this_nodo(Nodo n)
-{	*this=n;
+void Nodo::this_nodo(Nodo n)
+{	
+	*this=n;
 }

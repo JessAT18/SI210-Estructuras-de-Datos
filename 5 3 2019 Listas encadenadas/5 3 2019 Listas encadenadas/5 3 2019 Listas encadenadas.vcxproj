@@ -88,6 +88,7 @@
   <ItemGroup>
     <ClCompile Include="5 3 2019 Listas encadenadas.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Cadena.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -96,6 +97,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cadena.h" />
     <ClInclude Include="Form1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
