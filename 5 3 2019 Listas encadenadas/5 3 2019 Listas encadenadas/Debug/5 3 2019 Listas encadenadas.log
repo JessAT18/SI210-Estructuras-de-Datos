@@ -1,21 +1,23 @@
-﻿Compilación iniciada a las 09/05/2019 10:19:56 a. m..
+﻿Compilación iniciada a las 09/05/2019 10:26:38 a. m..
      1>Proyecto "C:\Users\Hp\OneDrive\Documents\UPSA\Estructura de datos\Apuntes\5 3 2019 Listas encadenadas\5 3 2019 Listas encadenadas\5 3 2019 Listas encadenadas.vcxproj" en el nodo 2 (build destinos).
      1>InitializeBuildStatus:
-         Aplicando tarea Touch a "Debug\5 3 2019 Listas encadenadas.unsuccessfulbuild".
+         Se creará "Debug\5 3 2019 Listas encadenadas.unsuccessfulbuild" porque se especificó "AlwaysCreate".
        GenerateTargetFrameworkMonikerAttribute:
        Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
        ClCompile:
          Todas las salidas están actualizadas.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\5 3 2019 Listas encadenadas.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Lista.cpp /clr:nostdlib 
-         Lista.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\5 3 2019 Listas encadenadas.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Aplicacion.cpp /clr:nostdlib 
+         Aplicacion.cpp
          Todas las salidas están actualizadas.
        CoreResGen:
-         No hay ningún recurso obsoleto con respecto a sus archivos de origen. Se omitirá la generación de recursos.
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Debug\My532019Listasencadenadas.Form1.resources
+         Procesando archivo de recursos "Form1.resX" en "Debug\My532019Listasencadenadas.Form1.resources".
        ResourceCompile:
          Todas las salidas están actualizadas.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hp\OneDrive\Documents\UPSA\Estructura de datos\Apuntes\5 3 2019 Listas encadenadas\Debug\5 3 2019 Listas encadenadas.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\My532019Listasencadenadas.Form1.resources /MANIFEST /ManifestFile:"Debug\5 3 2019 Listas encadenadas.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hp\OneDrive\Documents\UPSA\Estructura de datos\Apuntes\5 3 2019 Listas encadenadas\Debug\5 3 2019 Listas encadenadas.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
          "Debug\5 3 2019 Listas encadenadas.obj"
+         Debug\Aplicacion.obj
          Debug\AssemblyInfo.obj
          Debug\Cadena.obj
          Debug\Lista.obj
@@ -32,4 +34,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:01.50
+Tiempo transcurrido 00:00:01.51
